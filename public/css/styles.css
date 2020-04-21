@@ -1,0 +1,83 @@
+/* revise edition of the style header version2 */
+body{
+  font-family: 'Montserrat';
+
+}
+
+/* Title section */
+
+#title{
+  /* background-color: #dee3e2; */
+  background-color: #d4f8e8;
+  color: #204051;
+  border: 0;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+
+}
+
+.container-fluid{
+  padding: 2%  2%;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+p{
+
+  margin: auto 10px;
+  font-size: 1 rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding:0 0 1rem;
+  letter-spacing: 5px;
+}
+
+.navbar-brand{
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  margin-left: 5rem;
+
+
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 15px;
+
+}
+
+
+/* Footer Styles */
+
+.footer {
+  position: absolute;
+  margin-top: 5%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  /* background-color: #1abc9c; */
+  background-color: #009f9d;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
